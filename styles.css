@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    width: 600px;
+    margin: auto;
+    /*background-color: orange;*/
+    text-align: left;
+}
+/*#container1 p{*/
+/*    font-size: 10px;*/
+/*    !*margin-right: 10px;*!*/
+/*    margin-left: 10px;*/
+/*}*/
+
+.main-container:first-child {
+    margin-top: 40px;
+    font-size: 8px;
+    color: slategray;
+}
+.main-container h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+div h3:first-of-type {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-container p {
+    font-size: 14px;
+    color: slategray;
+    text-align: left;
+}
+.tag {
+    margin-left: 5px;
+    display: inline-block;
+    color: slategray;
+    font-size: 10px;
+
+}
+
+table{
+    width: 100%;
+    height: 45px;
+    font-size: 12px;
+    color: white;
+}
+th {
+    border: 4px solid white;
+    text-align: left;
+    padding-left:10px ;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    margin-left: 20px;
+    border-radius: 12%;
+}
+
+.intro {
+    width: 558px;
+    background-color:#F0F0F2;
+    padding: 20px;
+    margin-top: 20px;
+}
+.avatar-img{
+    width: 80px;
+    height: 90px;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.intro p{
+    display:inline;
+    color: slategray;
+    font-size: 12px;
+}
+
+.prev-nex2 div {
+    alignment: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 5px;
+}
+
+.prev-nex3 div {
+    child-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 5px;
+}
+
+.iconify {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#intro-cell1 {
+    font-size: 14px;
+}
+
+#icons-container :nth-child(1) {
+    display: inline-block ;
+    color: black ;
+    margin-right: 360px;
+    font-weight: bold;
+}
+#icons-container :nth-child(2) {
+    color:blue ;
+}
+#icons-container :nth-child(3) {
+    color:darkgreen ;
+}
+#icons-container :nth-child(4) {
+    color:orangered ;
+}
+#icons-container :nth-child(5) {
+    color:darkblue ;
+}
+.divider {
+    border:1px solid gray;
+    margin: 5px 0;
+}
+
+.divider2 {
+    border:1px solid darkgrey;
+    margin: 20px 0;
+
+}
+
+
+.comment{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: left;
+    display: inline-block;
+    color: black;
+}
+
+.comment2{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: left;
+    display: inline-block;
+    color: dodgerblue;
+}
+
+.data {
+    margin-top: 20px;
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+}
+
+.box {
+    margin-top: 20px;
+    width:524px;
+    height: 45px;
+}
+
+.comment-box {
+    text-align: left;
+    margin-top: 20px;
+}
