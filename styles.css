@@ -1,19 +1,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
 .main-container {
     width: 600px;
     margin: auto;
-    /*background-color: orange;*/
     text-align: left;
 }
-/*#container1 p{*/
-/*    font-size: 10px;*/
-/*    !*margin-right: 10px;*!*/
-/*    margin-left: 10px;*/
-/*}*/
-
 .main-container:first-child {
     margin-top: 40px;
     font-size: 8px;
@@ -25,7 +17,16 @@ body {
     font-size: 42px;
     margin-bottom: 30px;
 }
-
+#container1 p {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+.main-container p {
+    font-size: 14px;
+    color: #424242;
+    text-align: left;
+}
 div h3:first-of-type {
     font-weight: bold;
     font-size: 14px;
@@ -34,18 +35,11 @@ div h3:first-of-type {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-.main-container p {
-    font-size: 14px;
-    color: slategray;
-    text-align: left;
-}
 .tag {
     margin-left: 5px;
     display: inline-block;
     color: slategray;
     font-size: 10px;
-
 }
 
 table{
@@ -59,7 +53,7 @@ th {
     text-align: left;
     padding-left:10px ;
     padding-bottom: 2px;
-    vertical-align: middle;
+    vertical-align:middle;
     margin-left: 20px;
     border-radius: 12%;
 }
@@ -82,91 +76,77 @@ th {
     color: slategray;
     font-size: 12px;
 }
-
-.prev-nex2 div {
+#intro-titr {
+    font-size: 24px ;
+    font-weight: bold ;
+    color: black;
+}
+#intro-post {
+    font-weight: bold;
+    color: black;
+}
+.prev-next {
+    width: 600px;
+    margin: auto ;
+    padding-top: 20px;
+}
+.prev div {
     alignment: left;
     display: inline-block;
     vertical-align: middle;
     line-height: 5px;
 }
+.prev p:first-of-type {
+    font-size: 14px;
+    color: darkgray;
+}
+.prev p:last-of-type {
+    color: black;
+    font-size:10px;
+}
 
-.prev-nex3 div {
+.next div {
     child-align: right;
     display: inline-block;
     vertical-align: middle;
     line-height: 5px;
 }
-
+.next p:first-of-type {
+    text-align:right;
+    font-size: 14px;
+    color: darkgray;
+}
+.next p:last-of-type {
+    color: black;
+    font-size:10px;
+}
 .iconify {
     display: inline-block;
     vertical-align: middle;
 }
-
-
-#intro-cell1 {
-    font-size: 14px;
-}
-
-#icons-container :nth-child(1) {
-    display: inline-block ;
-    color: black ;
-    margin-right: 360px;
-    font-weight: bold;
-}
-#icons-container :nth-child(2) {
-    color:blue ;
-}
-#icons-container :nth-child(3) {
-    color:darkgreen ;
-}
-#icons-container :nth-child(4) {
-    color:orangered ;
-}
-#icons-container :nth-child(5) {
-    color:darkblue ;
-}
 .divider {
-    border:1px solid gray;
+    border:1px solid darkgrey;
     margin: 5px 0;
 }
-
 .divider2 {
-    border:1px solid darkgrey;
+    border:1px solid gainsboro;
     margin: 20px 0;
 
 }
-
-
-.comment{
+.comment {
+    line-height: 3px
+}
+.comment h4:first-of-type{
     margin-top: 10px;
     font-size: 12px;
     text-align: left;
     display: inline-block;
     color: black;
 }
-
-.comment2{
+.comment h4:last-of-type{
     margin-top: 10px;
     font-size: 10px;
     text-align: left;
     display: inline-block;
     color: dodgerblue;
-}
-
-.data {
-    margin-top: 20px;
-    width: 49%;
-    text-align: right;
-    display: inline-block;
-}
-
-.box {
-    margin-top: 20px;
-    width:524px;
-    height: 45px;
-}
-
-.comment-box {
-    text-align: left;
-    margin-top: 20px;
 }
