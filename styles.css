@@ -1,83 +1,91 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
+
+/*@media screen and (min-width: 40rem) {*/
+/*    h5 {*/
+/*        font-size: 2rem;*/
+/*        !*background-color: aqua;*!*/
+/*        width: 50rem;*/
+/*    }*/
 .main-container {
-    width: 600px;
+    max-width: 60%;
     margin: auto;
     text-align: left;
 }
 .main-container:first-child {
-    margin-top: 40px;
-    font-size: 8px;
+    margin-top: 4vw;
+    font-size: 1vw;
     color: slategray;
 }
 .main-container h1 {
     color: black;
     font-weight: bold;
-    font-size: 42px;
-    margin-bottom: 30px;
+    font-size: 4vw;
+    margin-bottom: 3vw;
 }
 #container1 p {
     display: inline-block;
-    margin-left: 2px;
-    margin-right: 20px;
+    margin-left: 0.2vw;
+    margin-right: 2vw;
 }
 .main-container p {
-    font-size: 14px;
+    font-size: 1.6vw;
     color: #424242;
     text-align: left;
 }
-div h3:first-of-type {
+h3 {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.6vw;
     color: black;
     text-align: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
-.tag {
-    margin-left: 5px;
+#tag {
+    margin-left: 1vw;
     display: inline-block;
     color: slategray;
-    font-size: 10px;
+    font-size: 1.2vw;
 }
 
 table{
     width: 100%;
-    height: 45px;
-    font-size: 12px;
+    height: 4.5vw;
+    font-size: 1.2vw;
     color: white;
 }
 th {
-    border: 4px solid white;
+    border: 0.4vw solid white;
     text-align: left;
-    padding-left:10px ;
-    padding-bottom: 2px;
+    padding-left:1vw ;
+    padding-bottom: 0.2vw;
     vertical-align:middle;
-    margin-left: 20px;
+    margin-left: 2vw;
     border-radius: 12%;
 }
 
 .intro {
-    width: 558px;
+    width: 56vw;
     background-color:#F0F0F2;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 2vw;
+    margin-top: 2vw;
 }
 .avatar-img{
-    width: 80px;
-    height: 90px;
+    width: 8vw;
+    height: 9vw;
     border-radius: 100%;
-    margin-right: 25px;
+    margin-right: 2.5vw;
 }
 
 .intro p{
     display:inline;
     color: slategray;
-    font-size: 12px;
+    font-size: 1.2vw;
 }
 #intro-titr {
-    font-size: 24px ;
+    font-size: 2.4vw ;
     font-weight: bold ;
     color: black;
 }
@@ -86,66 +94,66 @@ th {
     color: black;
 }
 .prev-next {
-    width: 600px;
+    width: 60vw;
     margin: auto ;
-    padding-top: 20px;
+    padding-top: 2vw;
 }
 .prev div {
     alignment: left;
     display: inline-block;
     vertical-align: middle;
-    line-height: 5px;
+    line-height: 0.5vw;
 }
 .prev p:first-of-type {
-    font-size: 14px;
+    font-size: 1.4vw;
     color: darkgray;
 }
 .prev p:last-of-type {
     color: black;
-    font-size:10px;
+    font-size:1vw;
 }
 
 .next div {
     child-align: right;
     display: inline-block;
     vertical-align: middle;
-    line-height: 5px;
+    line-height: 0.5vw;
 }
 .next p:first-of-type {
     text-align:right;
-    font-size: 14px;
+    font-size: 1.4vw;
     color: darkgray;
 }
 .next p:last-of-type {
     color: black;
-    font-size:10px;
+    font-size:1vw;
 }
 .iconify {
     display: inline-block;
     vertical-align: middle;
 }
 .divider {
-    border:1px solid darkgrey;
-    margin: 5px 0;
+    border:0.1vw solid darkgrey;
+    margin: 0.5vw 0;
 }
 .divider2 {
-    border:1px solid gainsboro;
-    margin: 20px 0;
+    border:0.1vw solid gainsboro;
+    margin: 2vw 0;
 
 }
 .comment {
-    line-height: 3px
+    line-height: 0.3vw ;
 }
 .comment h4:first-of-type{
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: 1vw;
+    font-size: 1.2vw;
     text-align: left;
     display: inline-block;
     color: black;
 }
 .comment h4:last-of-type{
-    margin-top: 10px;
-    font-size: 10px;
+    margin-top: 1vw;
+    font-size: 1vw;
     text-align: left;
     display: inline-block;
     color: dodgerblue;
